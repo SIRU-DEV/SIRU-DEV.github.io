@@ -98,7 +98,7 @@
                             "name": "Fabric (sponge-mixin)",
                             "type": "Library",
                             "artifact": {
-                                "size": 1458875,
+                                "size": 1451874,
                                 "MD5": "4cc3ff559cafdc70d9ed80e869d447f0",
                                 "url": "https://siru-dev.github.io/repo/lib/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar"
                             }
