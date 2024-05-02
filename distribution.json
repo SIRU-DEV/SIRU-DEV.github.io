@@ -116,16 +116,6 @@
                     ]
                 },
                 {
-                    "id": "generated.fabricmod:automodpack:4.0.0-beta1@jar",
-                    "name": "AutoModpack",
-                    "type": "FabricMod",
-                    "artifact": {
-                        "size": 4281687,
-                        "url": "https://siru-dev.github.io/servers/Fabric-1.20.1/fabricmods/required/automodpack-fabric-4.0.0-beta1-1.20.1.jar",
-                        "MD5": "a2f7578c1652222e8c703831b604167g"
-                    }
-                },
-                {
                     "id": "generated.fabricmod:iris:1.6.9@jar",
                     "name": "Iris",
                     "type": "FabricMod",
