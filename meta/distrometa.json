@@ -1,5 +1,5 @@
 {
-  "$schema": "file:///D:/TestRoot/schemas/DistroMetaSchema.schema.json",
+  "$schema": "file:///D:/REBOOTRoot/schemas/DistroMetaSchema.schema.json",
   "meta": {
     "rss": "<LINK TO RSS FEED>",
     "discord": {
