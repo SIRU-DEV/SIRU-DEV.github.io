@@ -4,10 +4,7 @@
     "releaseTime": "2024-04-12T09:47:10",
     "time": "2024-04-12T09:47:10",
     "type": "release",
-    "mainClass": {
-        "client": "net.fabricmc.loader.impl.launch.knot.KnotClient",
-        "server": "net.fabricmc.loader.impl.launch.knot.KnotServer"
-    },
+    "mainClass": "net.fabricmc.loader.impl.launch.knot.KnotClient",
     "arguments": {
         "game": [],
         "jvm": [
