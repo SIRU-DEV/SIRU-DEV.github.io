@@ -1,161 +1,176 @@
 {
-    "version": "1.0.0",
-    "rss": "https://helios-files.geekcorner.eu.org/rss.xml",
-    "discord": {
-        "clientId": "1086936373057040395",
-        "smallImageText": "Change me through Nebula",
-        "smallImageKey": "big"
-    },
-    "servers":[
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "Test-1.20.1",
+      "name": "Test (Minecraft 1.20.1)",
+      "description": "Test Running Minecraft 1.20.1 (Fabric v0.15.10)",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.20.1",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
         {
-            "id": "Fabric-1.20.1",
-            "name": "Fabric (Minecraft 1.20.1)",
-            "description": "Fabric Running Minecraft 1.20.1 (Fabric v0.15.10)",
-            "icon": "https://siru-dev.github.io/servers/Fabric-1.20.1/Fabric-Demo-1.20.1.png",
-            "version": "1.0.0",
-            "address": "rebootcraft.shirouproject.xyz:26876",
-            "minecraftVersion": "1.20.1",
-            "discord": {
-                "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-                "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-                "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+          "id": "net.fabricmc:fabric-loader:0.15.10",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1327662,
+            "MD5": "582b8c44a8afc761c63df88b64e6bb0f",
+            "url": "https://siru-dev.github.io/repo/lib/net/fabricmc/fabric-loader/0.15.10/fabric-loader-0.15.10.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.20.1-fabric-0.15.10",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2849,
+                "MD5": "450c20221886ef07b22b1678f5a71967",
+                "url": "https://siru-dev.github.io/repo/versions/1.20.1-fabric-0.15.10/1.20.1-fabric-0.15.10.json"
+              }
             },
-            "mainServer": false,
-            "autoconnect": false,
-            "modules": [
-                {
-                    "id": "net.fabricmc:fabric-loader:0.15.10",
-                    "name": "Fabric (fabric-loader)",
-                    "type": "Fabric",
-                    "artifact": {
-                        "size": 1327662,
-                        "MD5": "582b8c44a8afc761c63df88b64e6bb0f",
-                        "url": "https://siru-dev.github.io/repo/lib/net/fabricmc/fabric-loader/0.15.10/fabric-loader-0.15.10.jar"
-                    },
-                    "subModules": [
-                        {
-                            "id": "1.20.1-fabric-0.15.10",
-                            "name": "Fabric (version.json)",
-                            "type": "VersionManifest",
-                            "artifact": {
-                                "size": 2848,
-                                "MD5": "2abad242f8dfafdac89733ec4ca939b0",
-                                "url": "https://siru-dev.github.io/repo/versions/1.20.1-fabric-0.15.10/1.20.1-fabric-0.15.10.json"
-                            }
-                        },
-                        {
-                            "id": "org.ow2.asm:asm:9.6",
-                            "name": "Fabric (asm)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 123598,
-                                "MD5": "6f8bccf756f170d4185bb24c8c2d2020",
-                                "url": "https://siru-dev.github.io/repo/lib/org/ow2/asm/asm/9.6/asm-9.6.jar"
-                            }
-                        },
-                        {
-                            "id": "org.ow2.asm:asm-analysis:9.6",
-                            "name": "Fabric (asm-analysis)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 34041,
-                                "MD5": "31c84ef7cc893fb278952ae2d6a2674f",
-                                "url": "https://siru-dev.github.io/repo/lib/org/ow2/asm/asm-analysis/9.6/asm-analysis-9.6.jar"
-                            }
-                        },
-                        {
-                            "id": "org.ow2.asm:asm-commons:9.6",
-                            "name": "Fabric (asm-commons)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 72194,
-                                "MD5": "9e317c75534bd1da8c00a67c618ab288",
-                                "url": "https://siru-dev.github.io/repo/lib/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar"
-                            }
-                        },
-                        {
-                            "id": "org.ow2.asm:asm-tree:9.6",
-                            "name": "Fabric (asm-tree)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 51935,
-                                "MD5": "6062608f1a98afe1e853d01fa1221a9e",
-                                "url": "https://siru-dev.github.io/repo/lib/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar"
-                            }
-                        },
-                        {
-                            "id": "org.ow2.asm:asm-util:9.6",
-                            "name": "Fabric (asm-util)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 91131,
-                                "MD5": "bd3bc1c176a787373e9a031073c9574b",
-                                "url": "https://siru-dev.github.io/repo/lib/org/ow2/asm/asm-util/9.6/asm-util-9.6.jar"
-                            }
-                        },
-                        {
-                            "id": "net.fabricmc:sponge-mixin:0.12.5+mixin.0.8.5",
-                            "name": "Fabric (sponge-mixin)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 1451874,
-                                "MD5": "4cc3ff559cafdc70d9ed80e869d447f0",
-                                "url": "https://siru-dev.github.io/repo/lib/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar"
-                            }
-                        },
-                        {
-                            "id": "net.fabricmc:intermediary:1.20.1",
-                            "name": "Fabric (intermediary)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 573365,
-                                "MD5": "3f4768ac751cac3418266d1d7aa15f55",
-                                "url": "https://siru-dev.github.io/repo/lib/net/fabricmc/intermediary/1.20.1/intermediary-1.20.1.jar"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "id": "generated.fabricmod:iris:1.6.9@jar",
-                    "name": "Iris",
-                    "type": "FabricMod",
-                    "artifact": {
-                        "size": 2407136,
-                        "url": "https://siru-dev.github.io/servers/Fabric-1.20.1/fabricmods/required/iris-mc1.20.1-1.6.9.jar",
-                        "MD5": "bddef894129b7da7d58bb8a1a7bd3c5c"
-                    }
-                },
-                {
-                    "id": "me.jellysquid.mods:lithium:0.11.2@jar",
-                    "name": "Lithium",
-                    "type": "FabricMod",
-                    "artifact": {
-                        "size": 645865,
-                        "url": "https://siru-dev.github.io/servers/Fabric-1.20.1/fabricmods/required/lithium-fabric-mc1.20.1-0.11.2.jar",
-                        "MD5": "2ba7d8793aa9eb2d7c84fb0887e8138c"
-                    }
-                },
-                {
-                    "id": "me.jellysquid.mods:sodium:0.5.3+mc1.20.1@jar",
-                    "name": "Sodium",
-                    "type": "FabricMod",
-                    "artifact": {
-                        "size": 852373,
-                        "url": "https://siru-dev.github.io/servers/Fabric-1.20.1/fabricmods/required/sodium-fabric-mc1.20.1-0.5.3.jar",
-                        "MD5": "77f3e718d4cee9be176fe0558f84d945"
-                    }
-                },
-                {
-                    "id": "generated.library:fabric:api-0.92.1+1.20.1@jar",
-                    "name": "fabric",
-                    "type": "Library",
-                    "artifact": {
-                        "size": 2106811,
-                        "url": "https://siru-dev.github.io/servers/Fabric-1.20.1/libraries/fabric-api-0.92.1+1.20.1.jar",
-                        "MD5": "aebe6143877807504e99115822a28e7f"
-                    }
-                }
-            ]
+            {
+              "id": "org.ow2.asm:asm:9.6",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 123598,
+                "MD5": "6f8bccf756f170d4185bb24c8c2d2020",
+                "url": "https://siru-dev.github.io/repo/lib/org/ow2/asm/asm/9.6/asm-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.6",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 34041,
+                "MD5": "31c84ef7cc893fb278952ae2d6a2674f",
+                "url": "https://siru-dev.github.io/repo/lib/org/ow2/asm/asm-analysis/9.6/asm-analysis-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.6",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 72194,
+                "MD5": "9e317c75534bd1da8c00a67c618ab288",
+                "url": "https://siru-dev.github.io/repo/lib/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.6",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51935,
+                "MD5": "6062608f1a98afe1e853d01fa1221a9e",
+                "url": "https://siru-dev.github.io/repo/lib/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.6",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 91131,
+                "MD5": "bd3bc1c176a787373e9a031073c9574b",
+                "url": "https://siru-dev.github.io/repo/lib/org/ow2/asm/asm-util/9.6/asm-util-9.6.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.13.3+mixin.0.8.5",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1458875,
+                "MD5": "9dcf01250f72212bf97f0fef55ba5acd",
+                "url": "https://siru-dev.github.io/repo/lib/net/fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/sponge-mixin-0.13.3+mixin.0.8.5.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.20.1",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 573365,
+                "MD5": "3f4768ac751cac3418266d1d7aa15f55",
+                "url": "https://siru-dev.github.io/repo/lib/net/fabricmc/intermediary/1.20.1/intermediary-1.20.1.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "automodpack-fabric-4.0.0-beta1-1.20.1.jar",
+          "name": "automodpack-fabric-4.0.0-beta1-1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 4281687,
+            "url": "https://siru-dev.github.io/servers/Test-1.20.1/files/automodpack-fabric-4.0.0-beta1-1.20.1.jar",
+            "MD5": "3e37438750f00dd0457adc2bccea0417",
+            "path": "automodpack-fabric-4.0.0-beta1-1.20.1.jar"
+          }
+        },
+        {
+          "id": "fabric-api-0.92.1+1.20.1.jar",
+          "name": "fabric-api-0.92.1+1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2106811,
+            "url": "https://siru-dev.github.io/servers/Test-1.20.1/files/fabric-api-0.92.1+1.20.1.jar",
+            "MD5": "686c88c0f615e58e9fbd13c678fe543a",
+            "path": "fabric-api-0.92.1+1.20.1.jar"
+          }
+        },
+        {
+          "id": "indium-1.0.27+mc1.20.1.jar",
+          "name": "indium-1.0.27+mc1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 104807,
+            "url": "https://siru-dev.github.io/servers/Test-1.20.1/files/indium-1.0.27+mc1.20.1.jar",
+            "MD5": "3e9cb7736e01332c1789be0e7583dbf8",
+            "path": "indium-1.0.27+mc1.20.1.jar"
+          }
+        },
+        {
+          "id": "iris-mc1.20.1-1.6.9.jar",
+          "name": "iris-mc1.20.1-1.6.9.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2407136,
+            "url": "https://siru-dev.github.io/servers/Test-1.20.1/files/iris-mc1.20.1-1.6.9.jar",
+            "MD5": "07a396be80bde9a20d1a0035b884acaa",
+            "path": "iris-mc1.20.1-1.6.9.jar"
+          }
+        },
+        {
+          "id": "sodium-fabric-mc1.20.1-0.5.3.jar",
+          "name": "sodium-fabric-mc1.20.1-0.5.3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 852373,
+            "url": "https://siru-dev.github.io/servers/Test-1.20.1/files/sodium-fabric-mc1.20.1-0.5.3.jar",
+            "MD5": "11db63c388786f3bfdb9e60c9c0a25c1",
+            "path": "sodium-fabric-mc1.20.1-0.5.3.jar"
+          }
         }
-    ]
+      ]
+    }
+  ]
 }
