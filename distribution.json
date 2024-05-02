@@ -39,7 +39,7 @@
                             "type": "VersionManifest",
                             "artifact": {
                                 "size": 2848,
-                                "MD5": "6052ebb6acbba734c83fd3a09e67d31e",
+                                "MD5": "2abad242f8dfafdac89733ec4ca939b0",
                                 "url": "https://siru-dev.github.io/repo/versions/1.20.1-fabric-0.15.10/1.20.1-fabric-0.15.10.json"
                             }
                         },
@@ -108,7 +108,7 @@
                             "name": "Fabric (intermediary)",
                             "type": "Library",
                             "artifact": {
-                                "size": 608319,
+                                "size": 573365,
                                 "MD5": "3f4768ac751cac3418266d1d7aa15f55",
                                 "url": "https://siru-dev.github.io/repo/lib/net/fabricmc/intermediary/1.20.1/intermediary-1.20.1.jar"
                             }
@@ -122,7 +122,7 @@
                     "artifact": {
                         "size": 2407136,
                         "url": "https://siru-dev.github.io/servers/Fabric-1.20.1/fabricmods/required/iris-mc1.20.1-1.6.9.jar",
-                        "MD5": "a2f7578c1652222e8c703831b604150e"
+                        "MD5": "bddef894129b7da7d58bb8a1a7bd3c5c"
                     }
                 },
                 {
@@ -132,7 +132,7 @@
                     "artifact": {
                         "size": 645865,
                         "url": "https://siru-dev.github.io/servers/Fabric-1.20.1/fabricmods/required/lithium-fabric-mc1.20.1-0.11.2.jar",
-                        "MD5": "83da6729d5402dc42eca740a96f97346"
+                        "MD5": "2ba7d8793aa9eb2d7c84fb0887e8138c"
                     }
                 },
                 {
@@ -142,7 +142,7 @@
                     "artifact": {
                         "size": 852373,
                         "url": "https://siru-dev.github.io/servers/Fabric-1.20.1/fabricmods/required/sodium-fabric-mc1.20.1-0.5.3.jar",
-                        "MD5": "d7753a50ca37f50abb10465a9a425dac"
+                        "MD5": "77f3e718d4cee9be176fe0558f84d945"
                     }
                 },
                 {
@@ -152,7 +152,7 @@
                     "artifact": {
                         "size": 2106811,
                         "url": "https://siru-dev.github.io/servers/Fabric-1.20.1/libraries/fabric-api-0.92.1+1.20.1.jar",
-                        "MD5": "e16ba73c962937a8a11515ecfd47d163"
+                        "MD5": "aebe6143877807504e99115822a28e7f"
                     }
                 }
             ]
