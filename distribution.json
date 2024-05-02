@@ -20,8 +20,8 @@
         "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
       },
-      "mainServer": false,
-      "autoconnect": false,
+      "mainServer": true,
+      "autoconnect": true,
       "modules": [
         {
           "id": "net.fabricmc:fabric-loader:0.15.10",
@@ -116,58 +116,53 @@
           ]
         },
         {
-          "id": "automodpack-fabric-4.0.0-beta1-1.20.1.jar",
-          "name": "automodpack-fabric-4.0.0-beta1-1.20.1.jar",
-          "type": "File",
+          "id": "generated.fabricmod:automodpack-bootstrap:1.0.0@jar",
+          "name": "AutoModpack bootstrap",
+          "type": "FabricMod",
           "artifact": {
             "size": 4281687,
-            "url": "https://siru-dev.github.io/servers/Test-1.20.1/files/automodpack-fabric-4.0.0-beta1-1.20.1.jar",
-            "MD5": "3e37438750f00dd0457adc2bccea0417",
-            "path": "automodpack-fabric-4.0.0-beta1-1.20.1.jar"
+            "url": "https://siru-dev.github.io/servers/Test-1.20.1/fabricmods/required/automodpack-fabric-4.0.0-beta1-1.20.1.jar",
+            "MD5": "3e37438750f00dd0457adc2bccea0417"
           }
         },
         {
-          "id": "fabric-api-0.92.1+1.20.1.jar",
-          "name": "fabric-api-0.92.1+1.20.1.jar",
-          "type": "File",
+          "id": "generated.fabricmod:fabric-api:0.92.1+1.20.1@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
           "artifact": {
             "size": 2106811,
-            "url": "https://siru-dev.github.io/servers/Test-1.20.1/files/fabric-api-0.92.1+1.20.1.jar",
-            "MD5": "686c88c0f615e58e9fbd13c678fe543a",
-            "path": "fabric-api-0.92.1+1.20.1.jar"
+            "url": "https://siru-dev.github.io/servers/Test-1.20.1/fabricmods/required/fabric-api-0.92.1+1.20.1.jar",
+            "MD5": "686c88c0f615e58e9fbd13c678fe543a"
           }
         },
         {
-          "id": "indium-1.0.27+mc1.20.1.jar",
-          "name": "indium-1.0.27+mc1.20.1.jar",
-          "type": "File",
+          "id": "link.infra:indium:1.0.27+mc1.20.1@jar",
+          "name": "Indium",
+          "type": "FabricMod",
           "artifact": {
             "size": 104807,
-            "url": "https://siru-dev.github.io/servers/Test-1.20.1/files/indium-1.0.27+mc1.20.1.jar",
-            "MD5": "3e9cb7736e01332c1789be0e7583dbf8",
-            "path": "indium-1.0.27+mc1.20.1.jar"
+            "url": "https://siru-dev.github.io/servers/Test-1.20.1/fabricmods/required/indium-1.0.27+mc1.20.1.jar",
+            "MD5": "3e9cb7736e01332c1789be0e7583dbf8"
           }
         },
         {
-          "id": "iris-mc1.20.1-1.6.9.jar",
-          "name": "iris-mc1.20.1-1.6.9.jar",
-          "type": "File",
+          "id": "generated.fabricmod:iris:1.6.9@jar",
+          "name": "Iris",
+          "type": "FabricMod",
           "artifact": {
             "size": 2407136,
-            "url": "https://siru-dev.github.io/servers/Test-1.20.1/files/iris-mc1.20.1-1.6.9.jar",
-            "MD5": "07a396be80bde9a20d1a0035b884acaa",
-            "path": "iris-mc1.20.1-1.6.9.jar"
+            "url": "https://siru-dev.github.io/servers/Test-1.20.1/fabricmods/required/iris-mc1.20.1-1.6.9.jar",
+            "MD5": "07a396be80bde9a20d1a0035b884acaa"
           }
         },
         {
-          "id": "sodium-fabric-mc1.20.1-0.5.3.jar",
-          "name": "sodium-fabric-mc1.20.1-0.5.3.jar",
-          "type": "File",
+          "id": "me.jellysquid.mods:sodium:0.5.3@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
           "artifact": {
             "size": 852373,
-            "url": "https://siru-dev.github.io/servers/Test-1.20.1/files/sodium-fabric-mc1.20.1-0.5.3.jar",
-            "MD5": "11db63c388786f3bfdb9e60c9c0a25c1",
-            "path": "sodium-fabric-mc1.20.1-0.5.3.jar"
+            "url": "https://siru-dev.github.io/servers/Test-1.20.1/fabricmods/required/sodium-fabric-mc1.20.1-0.5.3.jar",
+            "MD5": "11db63c388786f3bfdb9e60c9c0a25c1"
           }
         }
       ]
