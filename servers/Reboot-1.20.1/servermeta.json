@@ -4,7 +4,7 @@
     "version": "1.0.0",
     "name": "Reboot (Minecraft 1.20.1)",
     "description": "Reboot Running Minecraft 1.20.1 (Fabric v0.15.10)",
-    "icon": "How to set the server icon: https://github.com/dscalzi/Nebula#setting-the-server-icon",
+    "icon": "https://i.imgur.com/zB4h3tq.png",
     "address": "rebootcraft.shirouproject.xyz:26876",
     "discord": {
       "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
