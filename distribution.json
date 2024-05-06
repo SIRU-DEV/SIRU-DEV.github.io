@@ -11,9 +11,9 @@
       "id": "Reboot-1.20.1",
       "name": "Reboot (Minecraft 1.20.1)",
       "description": "Reboot Running Minecraft 1.20.1 (Fabric v0.15.10)",
-      "icon": null,
+      "icon": https://i.imgur.com/zB4h3tq.png,
       "version": "1.0.0",
-      "address": "rebootcraft.shirouproject.xyz:26876",
+      "address": "https://i.imgur.com/zB4h3tq.png",
       "minecraftVersion": "1.20.1",
       "discord": {
         "shortId": "Reboot Project SS1",
