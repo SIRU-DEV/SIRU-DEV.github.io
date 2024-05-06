@@ -13,7 +13,7 @@
       "description": "Reboot Running Minecraft 1.20.1 (Fabric v0.15.10)",
       "icon": https://i.imgur.com/zB4h3tq.png,
       "version": "1.0.0",
-      "address": "https://i.imgur.com/zB4h3tq.png",
+      "address": "rebootcraft.shirouproject.xyz,
       "minecraftVersion": "1.20.1",
       "discord": {
         "shortId": "Reboot Project SS1",
