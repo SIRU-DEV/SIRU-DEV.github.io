@@ -5,11 +5,11 @@
     "name": "Reboot (Minecraft 1.20.1)",
     "description": "Reboot Running Minecraft 1.20.1 (Fabric v0.15.10)",
     "icon": "https://i.imgur.com/zB4h3tq.png",
-    "address": "rebootcraft.shirouproject.xyz:26876",
+    "address": "rebootcraft.shirouproject.xyz",
     "discord": {
-      "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-      "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      "shortId": "Reboot Project SS1",
+      "largeImageText": "REBOOT-Launcher",
+      "largeImageKey": "rb_icon"
     },
     "mainServer": true,
     "autoconnect": true
